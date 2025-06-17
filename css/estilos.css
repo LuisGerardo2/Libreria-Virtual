@@ -1,0 +1,156 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Fondo claro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Barra de navegación */
+header {
+    display: flex;
+    justify-content: space-between; /* Espacio entre el logo y los enlaces */
+    align-items: center;
+    background-color: #2a4a3a; /* Verde oscuro */
+    padding: 20px;
+}
+
+/* Logo */
+.logo h1 {
+    margin: 0;
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Contenedor de enlaces centrados */
+.nav-links {
+    display: flex;
+    justify-content: center; /* Centra los enlaces dentro del contenedor */
+    flex-grow: 1; /* Asegura que los enlaces ocupen el espacio disponible */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Esto mantiene los enlaces centrados */
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Enlace Accede alineado a la derecha */
+.accede-link {
+    display: flex;
+    justify-content: flex-end; /* Alinea a la derecha */
+}
+
+.accede-link a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.accede-link a:hover {
+    text-decoration: underline;
+}
+
+/* Contenedor del formulario */
+.container-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.form-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Títulos y texto */
+h2 {
+    color: #2a4a3a;
+    font-size: 26px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+p {
+    color: #4e4e4e;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+label {
+    font-size: 16px;
+    color: #4e4e4e;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type=text],input[type=number],input[type=file], textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.submit-button {
+    background-color: #2a4a3a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #1f3c30;
+}
+
+/* Pie de página */
+footer {
+    background-color: #2a4a3a; /* Verde oscuro */
+    padding: 10px;
+    text-align: center;
+    color: #FFFFFF;  /* Forzar color blanco */
+    text-shadow: none; /* Eliminar sombras */
+    filter: none; /* Eliminar cualquier filtro */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    opacity: 1; /* Asegura que no haya transparencia */
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #FFFFFF !important;  /* Forzar color blanco */
+}

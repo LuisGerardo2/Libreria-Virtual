@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Great Gatsby Popup</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- The Book Listing -->
+  <div style="background: green;">
+  <div class="book">
+    <img src="../img/book1.jpg" alt="The Great Gatsby" class="book-cover">
+    <div class="book-info">
+      <h3>The Great Gatsby</h3>
+      <p>F. Scott Fitzgerald</p>
+      <button id="showPopupBtn">Solicitar</button>
+    </div>
+  </div>
+
+  <!-- The Popup -->
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <span id="closePopupBtn" class="close-btn">&times;</span>
+      <img src="../img/book1.jpg" alt="The Great Gatsby" class="popup-cover">
+
+      <div class="popup-text">
+        <h3>The Great Gatsby</h3>
+        <p><strong>F. Scott Fitzgerald</strong></p>
+        <p>A novel of the Jazz Age, focusing on the mysterious millionaire Jay Gatsby and his obsession with the beautiful Daisy Buchanan.</p>
+      </div>
+      <button class="popup-btn">Solicitar</button>
+    </div>
+  </div>
+</div>
+  <script src="script.js">
+
+
+
+  </script>
+</body>
+</html>

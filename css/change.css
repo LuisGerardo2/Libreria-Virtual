@@ -1,0 +1,67 @@
+/* Sección de libros */
+.books-section {
+    padding: 0;
+    background-color: var(--background-color);
+    margin: 0 15%;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    padding: 10px 0;
+    margin-bottom: 2rem;
+}
+
+.books-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajusta automáticamente las columnas */
+    gap: 2rem; 
+    justify-content: center;
+}
+
+.book {
+    font-family: var(--text-font);
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 180px;
+    padding: 1rem 1.5rem;
+    text-align: center;
+}
+
+.book-image {
+    width: 60%;
+}
+
+.book-title {
+    margin: 0;
+    padding-top: 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.book-author {
+    margin: 0;
+    font-size: 1rem;
+    color: var(--secondary-color);
+}
+
+.book-button {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    background-color: #4A635D; /* Color del botón */
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem; /* Espacio después del contenido */
+}
+
+.book-button:hover {
+    background-color: #376E5B; /* Color en hover */
+}
